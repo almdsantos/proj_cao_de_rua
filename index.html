@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"    >
+    <link rel="stylesheet" href="/estilos/padrao.css">
+    <title>Projeto Cão de Rua</title>
+</head>
+<body>
+    <div id="cabecalho">
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li>opcao1</li>
+                <li>opcao1</li>
+                <li>opcao1</li>
+            </ul>
+        </menu>
+        <h1>Projeto Cão de Rua</h1>
+        <img class="logo" src="/imagens/logo.png" alt="Logo_Projeto_Cão_de_Rua">
+    </div>
+    <div id="conteudo">
+        <img id="banner" src="/imagens/banner2.jpg" alt="Banner">
+    </div>
+    <div id="conteudo-secundario">
+        <h1>Por que adotar um cãozinho?</h1>
+        <h3>A adoção de cachorro é um ato de amor. Afinal, acolher um cãozinho abandonado vai trazer amor tanto para a vida dele, que vai ganhar uma família, quanto para a sua, que vai ter o afeto e companhia de um animal eternamente grato. Mas a adoção de cachorro é também um ato de responsabilidade social.</h3>
+    </div>
+    <div id="footer">
+        <img class="logo" src="/imagens/logo.png" alt="Logo_Projeto_Cão_de_Rua">
+    </div>
+    <script>
+        function clickMenu() {
+           if(itens.style.display == 'block') {
+                itens.style.display = 'none'
+           } else {
+            itens.style.display = 'block'
+           }
+        }
+    </script>
+</body>
+</html>
