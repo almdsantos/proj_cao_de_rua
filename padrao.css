@@ -1,4 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap');
 * {
     margin: 0;
     padding: 0;
+}
+
+/*Cabeçalho*/
+
+#cabecalho {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-bottom: 3px solid gray;
+}
+
+#cabecalho img {
+    height: 80%;
+    padding-top: 1%;
+    padding-right: 100px;
+}
+
+#cabecalho h1 {
+    font-family: 'Moo Lah Lah', cursive;
+    text-align: center;
+    padding-top: 2%;
 }
